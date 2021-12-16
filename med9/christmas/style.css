@@ -1,0 +1,40 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Kaushan+Script&display=swap');
+
+body{ 
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	background-image: url("christmas.jpg");
+	color: white;
+
+
+
+ }
+
+.card {
+border: 30px double rgb(237, 19, 19);
+padding: 50px;
+background: linear-gradient(90deg, rgba(53,162,93,0.8) 100%, rgba(121,9,9,0.48) 100%);
+border-radius: 30px;
+transition: all 4s;
+
+
+
+
+
+}
+
+h1, h2, p{   font-family:"Kaushan Script" ;
+     font-size: 45px;
+
+ }
+
+.card:hover { 
+	transform: scale(1.5) rotate(360deg);
+	transition: all 4s;
+
+
+  }
