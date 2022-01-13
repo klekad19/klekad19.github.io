@@ -1,0 +1,16 @@
+ 
+h1{
+	
+	background: rgb(209,13,13);
+background: linear-gradient(90deg, rgba(209,13,13,1) 31%, rgba(45,187,98,1) 68%); font-display: white;
+}
+
+h2 { background: rgb(125,150,18);
+background: linear-gradient(180deg, rgba(125,150,18,1) 15%, rgba(19,13,209,1) 33%, rgba(139,18,18,1) 51%, rgba(17,212,90,1) 66%, rgba(212,131,17,1) 88%); font-display: white;
+
+
+ }  
+ h3  {  background: rgb(125,150,18);
+background: radial-gradient(circle, rgba(125,150,18,1) 15%, rgba(139,18,18,1) 50%, rgba(17,60,212,1) 88%);   
+   font-display: white; }
+  
