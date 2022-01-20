@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Mochiy+Pop+P+One&family=Parisienne&display=swap');
+
+h1{
+  font-family: "Kaushan Script";
+  text-align: center;
+}
+
+
+
+h2{ 
+font-family: "Mochiy Pop P One";
+text-align: right;
+ }
+
+
+ 
+
+ p{  font-family: "Parisienne";
+ column-count: 3; 
+ line-height: 1.5;
+ margin: 50px;
+ text-align: justify;
+
+   }
+
+  .signature{
+
+    font-family: "Kaushan Script";
+    font-size: 50px;
+  }
+body{
+background: linear-gradient(90deg, rgba(29,90,253,1) 50%, rgba(203,37,85,1) 50%);
+
+}
