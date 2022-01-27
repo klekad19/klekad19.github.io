@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Mochiy+Pop+P+One&family=Parisienne&display=swap');
+
+#Hallo{
+ 
+font-family: "Parisienne";
+
+
+
+
+}
+
+ol{ 
+font-family: Parisienne;
+
+
+
+
+}
+
+img{  
+
+width: 300px; 
+margin: 50px;
+border: 10px solid blue;
+
+}
+
+ul{  
+width: 200px;
+height: 100px;
+margin: 5px;
+padding: 2px;
+border-top: 100px ;
+
+ }
+
+ body{    background: linear-gradient(90deg, rgba(203,106,37,1) 50%, rgba(45,74,152,1) 50%); font-size: 25px; }
+
+ h2{
+
+background-color: lightblue;
+font-size: 50px;
+padding: 20px;
+display: inline-block;
+
+ }
