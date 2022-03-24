@@ -1,0 +1,238 @@
+/*
+*
+* Title: Basic website about the beach;
+* Author: Klesti Kadrija;
+* Date: 17.03.2022;
+*/
+
+
+/******************************General Styling****************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root {
+scroll-behavior: smooth;
+
+}
+
+
+body{
+margin: 0;
+
+
+}
+
+/* Navigation */ 
+
+
+
+nav{
+
+background-color: lighblue;
+display: flex;
+justify-content: space-between; /* To make the links on the right side and the logo on the left */
+align-items: center;
+padding: 30px;
+background: radial-gradient(circle, rgba(137,239,241,1) 2%, rgba(9,63,162,1) 100%);
+
+
+
+}
+
+nav img{
+height: 80px;
+border-radius: 50%; /* To make the logo round */
+
+
+}
+
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type:none ; /* It removes the bullet points */
+  font-family: Pacifico;
+
+}
+nav ul li a{
+  margin: 20px;
+  padding: 20px;
+  text-decoration: none; /*It removes the underline*/
+  background-color: lightblue;
+  border-radius: 15px;
+
+}
+
+nav ul li a:hover {
+  /* Hover changes the elements if we move the mouse over it */
+background-color: blue;
+color: white;
+
+
+
+}
+
+/* Header */
+header{
+  height: 400px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(header-background.jpg);
+  background-position: center;
+  background-size: cover;
+
+
+
+
+
+}
+
+header h1{
+
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+/* Main */
+main{
+padding: 60px;
+background: linear-gradient(0deg, rgba(17,204,189,1) 45%, rgba(32,76,237,1) 57%);
+
+
+
+
+}
+
+main h2 {
+color: white;
+font-size: 30px;
+
+
+
+
+
+}
+
+
+main p {
+color: white;
+background-color: lighblue;
+padding: 20px;
+
+
+}
+
+
+section {
+display: flex;
+justify-content: space-between;
+align-items: stretch;
+
+
+
+
+}
+
+
+section .left {
+width: 70%;
+background-color: lightblue;
+padding: 30px;
+border: solid blue;
+font-family: Pacifico;
+ 
+}
+
+
+section .right {
+width: 30%;
+background-color: blue;
+padding: 30px;
+font-family: Pacifico;
+background-image: url(beach.jpg);
+
+}
+
+
+
+
+
+/* Footer */
+
+footer{
+height: 400px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+background-image: url("footer-background.jpg");
+background-size: cover;
+background-position: center;
+
+
+
+}
+
+footer p {
+color: white;
+background-color: darkcyan;
+color: white;
+border-radius: 30%;
+padding: 20px;
+
+}
+
+footer :hover{
+background-color: blue;
+color: white;
+
+
+}
+
+main ol{
+color: white;
+
+}
+
+
+/****************************** Page Styling ********************************/
+
+
+/* Home Page */
+
+#home header {
+ background-image: url(header-background.jpg);
+
+}
+
+
+#home #Cities{
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+}
+
+#home #Cities img{
+width: 200px;
+margin: 10px;
+
+}
+/* Contact Page */
+
+#contact header {
+background-image: url(header-background-contact.jpg);
+
+}
+
+
+
+#contact main p {
+background-color: orangered;
+
+
+
+}
