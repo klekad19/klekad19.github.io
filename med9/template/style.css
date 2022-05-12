@@ -1,0 +1,227 @@
+nav{
+
+background-color: grey;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px;
+background: grey
+
+
+
+
+}
+
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type:none ;
+  font-family: Lobster;
+
+}
+nav ul li a{
+  margin: 20px;
+  padding: 20px;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 15px;
+
+}
+
+nav ul li a:hover {
+background-color: grey;
+color: white;
+
+
+
+}
+.class{
+color: whitesmoke;
+font-size: 20px;
+
+}
+
+article{
+position: relative;
+margin: 50px;
+
+}
+
+article .black-box {
+
+background-color: black;
+color: white;
+padding: 8px;
+font-size: 12px;
+text-transform: uppercase;
+position: absolute;
+top: 180px;
+left: 0px;
+
+}
+section {
+display: flex;
+justify-content: space-around;
+align-items: stretch;
+
+
+
+
+}
+article .brickhouse {
+
+width: 200px;
+height: 170px;
+background-image: url("brickhouse.jpg");
+background-position: center;
+background-size: cover;
+padding: 20px;
+}
+article .renovatedhouse {
+
+width: 200px;
+height: 170px;
+background-image: url("renovatedhouse.jpg");
+background-position: center;
+background-size: cover;
+padding: 20px;
+}
+
+article .barnhouse {
+
+width: 200px;
+height: 170px;
+background-image: url("barnhouse.jpg");
+background-position: center;
+background-size: cover;
+padding: 20px;
+}
+article .summerhouse {
+
+width: 200px;
+height: 170px;
+background-image: url("summerhouse.jpg");
+background-position: center;
+background-size: cover;
+padding: 20px;
+
+}
+
+
+article .brickhouse2 {
+
+width: 200px;
+height: 170px;
+background-image: url("brickhouse2.jpg");
+background-position: center;
+background-size: cover;
+padding: 20px;
+}
+article .renovatedhouse2 {
+
+width: 200px;
+height: 170px;
+background-image: url("renovatedhouse2.jpg");
+background-position: center;
+background-size: cover;
+padding: 20px;
+}
+
+article .barnhouse2 {
+
+width: 200px;
+height: 170px;
+background-image: url("barnhouse2.jpg");
+background-position: center;
+background-size: cover;
+padding: 20px;
+}
+article .summerhouse2 {
+
+width: 200px;
+height: 170px;
+background-image: url("summerhouse2.jpg");
+background-position: center;
+background-size: cover;
+padding: 20px;
+
+}
+article{
+position: relative;
+
+
+}
+
+article .image {
+
+width: 300px;
+height: 170px;
+background-image: url("flower.jpg");
+background-position: center;
+background-size: cover;
+padding: 20px;
+
+
+
+}
+
+article .text {
+width: 300px;
+height: 170px;
+background-color: white;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+flex-direction: column;
+
+}
+
+article .text .mini-header {
+
+text-transform: uppercase;
+font-size: 13px;
+
+}
+
+article .text .mini-header span{
+
+margin-right: 8px;
+
+}
+
+article .text .mini-footer{
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: darkgrey;
+font-size: 12px;
+width: 100%;
+}
+
+
+
+article .johndoe {
+
+width: 200px;
+height: 170px;
+background-image: url("johndoe.jpg");
+background-position: center;
+background-size: cover;
+padding: 20px;
+}
+
+h2{
+	font-size: 20px;
+	color: black;
+}
+article .janedoe {
+
+width: 200px;
+height: 170px;
+background-image: url("janedoe.jpg");
+background-position: center;
+background-size: cover;
+padding: 20px;
+}
