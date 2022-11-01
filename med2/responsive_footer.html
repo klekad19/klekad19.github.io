@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Footer</title>
+	<style type="text/css">
+
+		*{
+	
+	box-sizing: border-box;
+	padding: 0;
+	word-wrap: break-word;
+}
+
+		
+		footer{
+			background-color: black;
+			display: flex;
+			flex-direction: column;
+			
+		}
+
+		 footer h2{
+			color: white ;
+
+		}
+
+		footer p{
+			color: white;
+		}
+		.about{
+			width: 100%;
+			padding: 20px;
+		    
+
+		}
+		.services{
+			width: 100%;
+			padding: 20px;
+		}
+		.company{
+			width: 100%;
+			padding: 20px;
+
+
+		}
+
+		h2, p{
+			text-align: center;
+		}
+
+	 a:hover {
+	 	background-color: blue;
+	 }
+
+	 a{
+	 	color: white;
+	 }
+
+
+@media (min-width: 768px){
+		footer{
+			background-color: black;
+			display: flex;
+			flex-direction: row;
+			
+		}
+
+		 footer h2{
+			color: white ;
+
+		}
+
+		footer p{
+			color: white;
+			
+		}
+		div {
+			width: 25%;
+			padding: 20px;
+		    
+
+		}
+		div:last-child{
+			width: 50%;
+			padding: 20px;
+		}
+		
+
+	 a:hover {
+	 	background-color: blue;
+	 }
+	 h2, p{
+			text-align: left;
+		}
+
+}
+
+
+	</style>
+</head>
+<body>
+	<footer>
+	<div>
+		<h2 >About</h2>
+		<p><a href="">Link1</a></p>
+		<p><a href="">Link2</a></p>
+		<p><a href="">Link3</a></p>
+	</div>	
+
+		<div>
+		<h2 >Sevices</h2>
+		<p><a href="">Link1</a></p>
+		<p><a href="">Link2</a></p>
+		<p><a href="">Link3</a></p>
+		</div>
+
+		  <div>
+		  <h2 >Our Company</h2>
+		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in odio non justo laoreet lobortis vitae sed mauris. Proin vestibulum, est non lacinia finibus, leo erat facilisis felis, at lacinia ex dui in tortor. Nulla sit amet interdum erat. Nunc imperdiet efficitur lectus, pulvinar maximus lacus sagittis et. Duis porttitor nisi et enim blandit pretium. Duis et rutrum libero. Mauris lorem dui, efficitur a elementum et, tristique sit amet </p>
+		</div>
+
+
+
+	</footer>
+
+</body>
+</html>
